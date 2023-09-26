@@ -20,7 +20,8 @@ st.header("Stroke Prediction App")
 
 # load the pickle file
 filename = "stroke_RF_model.pickle"
-stroke_model = pickle.load(open(filename, "rb"))
+with open(filename, 'rb') as file:
+	stroke_model = pickle.load(file)
 
 st.subheader("Please enter the patient's properties:")
 
