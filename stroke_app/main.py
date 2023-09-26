@@ -30,17 +30,17 @@ st.subheader("Please enter the patient's properties:")
 
 # numerical
 id_nr = st.number_input(
-    "Insert the id", value=None, placeholder="Type a number..."
+    "Insert the id", value=None, #placeholder="Type a number..."
 )
 
 age = st.number_input(
-    "Insert the age", value=None, placeholder="Type a number..."
+    "Insert the age", value=None, #placeholder="Type a number..."
 )
 bmi = st.number_input(
-    "Insert the BMI", value=None, placeholder="Type a number..."
+    "Insert the BMI", value=None, #placeholder="Type a number..."
 )
 gluc = st.number_input(
-    "Insert the avg. glucose level", value=None, placeholder="Type a number..."
+    "Insert the avg. glucose level", value=None, #placeholder="Type a number..."
 )
 
 # binary
