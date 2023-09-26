@@ -19,7 +19,7 @@ def assing_assing_to_cat(df, feature, feature_out, names, bins):
 st.header("Stroke Prediction App")
 
 # load the pickle file
-filename = "stroke_RF_model.pickle"
+filename = "stroke_app/stroke_RF_model.pickle"
 with open(filename, 'rb') as file:
 	stroke_model = pickle.load(file)
 
