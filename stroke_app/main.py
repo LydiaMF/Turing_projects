@@ -138,6 +138,6 @@ if st.button("Make Prediction"):
     else:
         prediction_answer = "NO stroke"
 
-    st.markdown(f"**You are likey to have: {prediction_answer}**")
+    st.markdown(f"**You are likely to have: {prediction_answer}**")
 
     st.write("Thank you! I hope you liked it.")
